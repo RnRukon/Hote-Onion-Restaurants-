@@ -1,0 +1,164 @@
+[
+    {
+        "id": 1,
+        "type": "Breakfast",
+        "subTitle": "How We dream about our future",
+        "name": "Bagel and Cream Cheese",
+        "photo": "https://i.ibb.co/ckRL4XJ/breakfast4.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia eos molestiae quo nulla libero nesciunt veritatis natus eveniet repellat deleniti amet blanditiis sapiente itaque odit, aliquid, aspernatur optio veniam id.",
+        "price": 6.99
+    },
+    {
+        "id": 2,
+        "type": "Breakfast",
+        "subTitle": "How We dream about our future",
+        "name": "Breakfast sandwich",
+        "photo": "https://i.ibb.co/BVgzD6B/breakfast2.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia eos molestiae quo nulla libero nesciunt veritatis natus eveniet repellat deleniti amet blanditiis sapiente itaque odit, aliquid, aspernatur optio veniam id.",
+        "price": 9.99
+    },
+    {
+        "id": 3,
+        "type": "Breakfast",
+        "subTitle": "How We dream about our future",
+        "name": "Baked chicken",
+        "photo": "https://i.ibb.co/WWfB9nc/breakfast3.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia eos molestiae quo nulla libero nesciunt veritatis natus eveniet repellat deleniti amet blanditiis sapiente itaque odit, aliquid, aspernatur optio veniam id.",
+        "price": 10.99
+    },
+    {
+        "id": 4,
+        "type": "Breakfast",
+        "subTitle": "How We dream about our future",
+        "name": "Eggs Benedict",
+        "photo": "https://i.ibb.co/8bLnm6v/breakfast1.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia eos molestiae quo nulla libero nesciunt veritatis natus eveniet repellat deleniti amet blanditiis sapiente itaque odit, aliquid, aspernatur optio veniam id.",
+        "price": 8.99
+    },
+    {
+        "id": 5,
+        "type": "Breakfast",
+        "subTitle": "How We dream about our future",
+        "name": "Toast Croissant Fried Egg",
+        "photo": "https://i.ibb.co/ScYBs16/breakfast6.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia eos molestiae quo nulla libero nesciunt veritatis natus eveniet repellat deleniti amet blanditiis sapiente itaque odit, aliquid, aspernatur optio veniam id.",
+        "price": 19.99
+    },
+    {
+        "id": 6,
+        "type": "Breakfast",
+        "subTitle": "How We dream about our future",
+        "name": "Full Breakfast Egg Toast Brunch",
+        "photo": "https://i.ibb.co/JscpZdn/breakfast5.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia eos molestiae quo nulla libero nesciunt veritatis natus eveniet repellat deleniti amet blanditiis sapiente itaque odit, aliquid, aspernatur optio veniam id.",
+        "price": 3.99
+    },
+    {
+        "id": 7,
+        "type": "Lunch",
+        "subTitle": "How We dream about our future",
+        "name": "Healthy Meal Plan",
+        "photo": "https://i.ibb.co/6WmrdgP/lunch6.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia eos molestiae quo nulla libero nesciunt veritatis natus eveniet repellat deleniti amet blanditiis sapiente itaque odit, aliquid, aspernatur optio veniam id.",
+        "price": 23.99
+    },
+    {
+        "id": 8,
+        "type": "Lunch",
+        "subTitle": "How We dream about our future",
+        "name": "Fried chicken Bent",
+        "photo": "https://i.ibb.co/F79mM9H/lunch5.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia eos molestiae quo nulla libero nesciunt veritatis natus eveniet repellat deleniti amet blanditiis sapiente itaque odit, aliquid, aspernatur optio veniam id.",
+        "price": 9.99
+    },
+    {
+        "id": 9,
+        "type": "Lunch",
+        "subTitle": "How We dream about our future",
+        "name": "Tarragon Rubbed Salmon",
+        "photo": "https://i.ibb.co/bJrkQsF/lunch3.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia eos molestiae quo nulla libero nesciunt veritatis natus eveniet repellat deleniti amet blanditiis sapiente itaque odit, aliquid, aspernatur optio veniam id.",
+        "price": 6.99
+    },
+    {
+        "id": 10,
+        "type": "Lunch",
+        "subTitle": "How We dream about our future",
+        "name": "Indian Lunch",
+        "photo": "https://i.ibb.co/DgCLPTG/lunch4.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia eos molestiae quo nulla libero nesciunt veritatis natus eveniet repellat deleniti amet blanditiis sapiente itaque odit, aliquid, aspernatur optio veniam id.",
+        "price": 8.99
+    },
+    {
+        "id": 11,
+        "type": "Lunch",
+        "subTitle": "How We dream about our future",
+        "name": "Beef Steak",
+        "photo": "https://i.ibb.co/BgzWWNJ/lunch1.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia eos molestiae quo nulla libero nesciunt veritatis natus eveniet repellat deleniti amet blanditiis sapiente itaque odit, aliquid, aspernatur optio veniam id.",
+        "price": 15.99
+    },
+    {
+        "id": 12,
+        "type": "Lunch",
+        "subTitle": "How We dream about our future",
+        "name": "Honey-Soy-Glazed Salmon with Peppers",
+        "photo": "https://i.ibb.co/yB7ckMD/lunch2.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia eos molestiae quo nulla libero nesciunt veritatis natus eveniet repellat deleniti amet blanditiis sapiente itaque odit, aliquid, aspernatur optio veniam id.",
+        "price": 7.99
+    },
+    {
+        "id": 13,
+        "type": "Dinner",
+        "subTitle": "How We dream about our future",
+        "name": "Salmon With GrapeFruit and Lentil Salad ",
+        "photo": "https://i.ibb.co/QddTFXH/dinner6.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia eos molestiae quo nulla libero nesciunt veritatis natus eveniet repellat deleniti amet blanditiis sapiente itaque odit, aliquid, aspernatur optio veniam id.",
+        "price": 9.99
+    },
+    {
+        "id": 14,
+        "type": "Dinner",
+        "subTitle": "How We dream about our future",
+        "name": "Lemony Salmon Piccata",
+        "photo": "https://i.ibb.co/9Z6YnyT/dinner2.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia eos molestiae quo nulla libero nesciunt veritatis natus eveniet repellat deleniti amet blanditiis sapiente itaque odit, aliquid, aspernatur optio veniam id.",
+        "price": 10.99
+    },
+    {
+        "id": 15,
+        "type": "Dinner",
+        "subTitle": "How We dream about our future",
+        "name": "Pork Tenderloin with quinoa Pilaf",
+        "photo": "https://i.ibb.co/MPrbNs6/dinner5.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia eos molestiae quo nulla libero nesciunt veritatis natus eveniet repellat deleniti amet blanditiis sapiente itaque odit, aliquid, aspernatur optio veniam id.",
+        "price": 12.99
+    },
+    {
+        "id": 16,
+        "type": "Dinner",
+        "subTitle": "How We dream about our future",
+        "name": "French Fries With Cheese",
+        "photo": "https://i.ibb.co/RShyLPG/dinner4.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia eos molestiae quo nulla libero nesciunt veritatis natus eveniet repellat deleniti amet blanditiis sapiente itaque odit, aliquid, aspernatur optio veniam id.",
+        "price": 8.99
+    },
+    {
+        "id": 17,
+        "type": "Dinner",
+        "subTitle": "How We dream about our future",
+        "name": "Garlic Butter Baked Salmon",
+        "photo": "https://i.ibb.co/ChtCwwS/dinner3.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia eos molestiae quo nulla libero nesciunt veritatis natus eveniet repellat deleniti amet blanditiis sapiente itaque odit, aliquid, aspernatur optio veniam id.",
+        "price": 6.99
+    },
+    {
+        "id": 18,
+        "type": "Dinner",
+        "subTitle": "How We dream about our future",
+        "name": "Baked Chicken",
+        "photo": "https://i.ibb.co/GvgMWZ8/dinner1.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia eos molestiae quo nulla libero nesciunt veritatis natus eveniet repellat deleniti amet blanditiis sapiente itaque odit, aliquid, aspernatur optio veniam id.",
+        "price": 9.99
+    }
+]

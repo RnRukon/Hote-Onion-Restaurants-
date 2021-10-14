@@ -1,0 +1,7 @@
+.banner-bg {
+    background-image: url(https://i.ibb.co/jLSDM2s/bannerbackground.png);
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

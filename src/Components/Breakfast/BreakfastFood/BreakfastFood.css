@@ -1,0 +1,9 @@
+.hover-card {
+    transition: .3s;
+}
+
+.hover-card:hover {
+    box-shadow: 1px 9px 20px rgb(194, 194, 194);
+    border-radius: 6px;
+    transition: .3s;
+}
