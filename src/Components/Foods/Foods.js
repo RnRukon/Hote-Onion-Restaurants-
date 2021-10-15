@@ -1,8 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Foods.css'
 const Foods = (props) => {
     const { name, photo, subTitle, price, id } = props?.food;
-
     return (
         <div className=' col-lg-4 col-md-6 col-sm-12 '>
             <div className="p-6 text-center m-4 hover-card card-bg">
@@ -13,6 +13,9 @@ const Foods = (props) => {
                     <h5>{name}</h5>
                     <p>{subTitle}</p>
                     <h2>Price: {price}</h2>
+                    <Link
+                        className='text-decoration-none text-red-500'
+                        to={`/details/${id}`}>Details</Link>
 
                 </div>
             </div>

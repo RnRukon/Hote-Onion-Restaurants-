@@ -1,3 +1,7 @@
 .card-bg:hover {
     box-shadow: 1px 9px 20px rgb(185, 185, 185);
 }
+
+details {
+    text-decoration: none;
+}

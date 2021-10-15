@@ -20,9 +20,16 @@ const Footer = () => {
                     <p>Restaurant near me</p>
                 </div>
             </div>
-            <div>
-                <hr className=' text-indigo-50' />
-                <small className='text-purple-50 ms-5'>Copyright 2021 Online food</small>
+            <br /><br /><br /><br />
+            <div className="row">
+                <div className="col-lg-6">
+                    <small className='text-purple-50 ms-5'>Copyright 2021 Online food</small>
+                </div>
+                <div className='text-white col-lg-5 d-flex justify-around'>
+                    <span>Privacy Policy</span>
+                    <span>Privacy Policy</span>
+                    <span>Terms of Use pricing Policy</span>
+                </div>
             </div>
             <br /><br />
         </div>

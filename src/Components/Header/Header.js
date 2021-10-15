@@ -52,7 +52,7 @@ const Header = () => {
 
                     <div className="row">
                         {
-                            foods.filter(food => food?.type?.includes(searchValue)).map(food => (<Foods food={food} key={food.id}></Foods>))
+                            foods?.filter(food => food?.type?.includes(searchValue)).map(food => (<Foods food={food} key={food?.id}></Foods>))
                         }
 
                     </div>

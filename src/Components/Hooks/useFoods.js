@@ -6,13 +6,13 @@ const useFoods = () => {
     const [services, setServices] = useState([]);
 
     useEffect(() => {
-        fetch('foodsdata.json')
+        fetch('https://raw.githubusercontent.com/RnRukon/Hote-Onion-Restaurants-/master/public/foodsdata.json')
             .then(res => res.json())
             .then(data => setFoods(data))
 
     }, [])
     useEffect(() => {
-        fetch('servicesdata.json')
+        fetch('https://raw.githubusercontent.com/RnRukon/Hote-Onion-Restaurants-/master/public/servicesdata.json')
             .then(res => res.json())
             .then(data => setServices(data))
 

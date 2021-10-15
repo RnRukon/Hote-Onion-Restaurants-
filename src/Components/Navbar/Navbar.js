@@ -1,8 +1,10 @@
 import React from 'react';
-import { Button, Nav, Navbar } from 'react-bootstrap';
+import { Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
+import useAuth from '../Hooks/useAuth';
 
 const Navbars = () => {
+    const { user, logOut } = useAuth();
     return (
         <Navbar className=" lg:px-20 md:px-10" fixed="top" bg="light" expand="lg">
             <Navbar.Brand href="#"><img className='img-fluid w-40' src="https://i.ibb.co/Wn8kLFW/logo2.png" alt="" /></Navbar.Brand>
@@ -15,9 +17,16 @@ const Navbars = () => {
                 >
                     <Nav.Link as={NavLink} to="/">Home</Nav.Link>
                     <Nav.Link as={NavLink} to="/action1"><img src="https://i.ibb.co/8xksV5c/Path-1.png" alt="" /></Nav.Link>
-                    <Nav.Link as={NavLink} to="/action1" className="fw-bold">Login</Nav.Link>
+                    {
+                        user.email ?
+                            <Nav.Link onClick={logOut} as={NavLink} to="/login" className="fw-bold">Logout</Nav.Link> :
+                            <Nav.Link as={NavLink} to="/login" className="fw-bold">Login</Nav.Link>
+                    }
 
-                    <Nav.Link as={NavLink} to="/action1"><button className="bg-pink-500 py-1 px-6 rounded-pill text-white fw-bold">Sign in</button></Nav.Link>
+
+                    {
+                        user.email ? <img src={user.photoURL} alt="" /> :
+                            <Nav.Link as={NavLink} to="/register"><button className="bg-pink-500 py-1 px-6 rounded-pill text-white fw-bold">Sign in</button></Nav.Link>}
 
                 </Nav>
 
