@@ -6,7 +6,8 @@ import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 
 initializeAuthentication();
 const Login = () => {
-    const { signInUsingGoogle } = useAuth()
+    const use = useAuth().allContext;
+    // const { signInUsingGoogle } = useAuth()
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
@@ -38,7 +39,7 @@ const Login = () => {
                 <button onClick={signInEmailPassword} className="btn btn-warning Btn">Login</button>
             </form>
             <p>---------or---------</p>
-            <button className='btn  btn-primary Btn' onClick={signInUsingGoogle}>Google sign in</button><br /><br />
+            <button className='btn  btn-primary Btn' onClick={use.signInUsingGoogle}>Google sign in</button><br /><br />
             <p>New User? <Link to='/register'>please Register</Link></p>
 
         </div>

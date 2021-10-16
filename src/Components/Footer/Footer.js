@@ -1,6 +1,8 @@
 import React from 'react';
+import useFoodDetails from '../Hooks/useFoodDetails';
 
 const Footer = () => {
+    const { navQuantity } = useFoodDetails()
     return (
         <div className=' container-fluid bg-gray-900 mt-5' >
             <div className='row text-white fw-bolder pt-14 px-6'>
@@ -29,9 +31,11 @@ const Footer = () => {
                     <span>Privacy Policy</span>
                     <span>Privacy Policy</span>
                     <span>Terms of Use pricing Policy</span>
+                    {navQuantity}
                 </div>
             </div>
             <br /><br />
+
         </div>
     );
 };

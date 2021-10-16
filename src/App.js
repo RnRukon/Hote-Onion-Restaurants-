@@ -8,6 +8,7 @@ import Footer from './Components/Footer/Footer';
 import AuthProvider from "./Components/context/AuthProvider";
 import Login from "./Components/Login/Login";
 import Register from "./Components/Login/Register/Register";
+
 function App() {
   return (
     <div className="App">

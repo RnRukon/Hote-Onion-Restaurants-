@@ -11,8 +11,8 @@ const Register = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [name, setName] = useState('');
-    const { signInUsingGoogle } = useAuth();
-
+    // const { signInUsingGoogle } = useAuth();
+    const use = useAuth().allContext;
 
 
     const emailChange = (event) => setEmail(event.target.value);
@@ -74,7 +74,7 @@ const Register = () => {
 '>Delete your Account</button>
             </div>
             <p>---------or---------</p>
-            <button className='btn btn-primary Btn ' onClick={signInUsingGoogle}>Google sign in</button>
+            <button className='btn btn-primary Btn ' onClick={use.signInUsingGoogle}>Google sign in</button>
             <div className='mt-3'>
                 <p>Already have an Account? <Link to='/login'>Please Login</Link></p>
             </div>
